@@ -1,0 +1,28 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: lightblue;
+    color: black;
+}
